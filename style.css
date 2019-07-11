@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
-  padding-left: 174px;
-  padding-right: 250px;
+  padding-left: 12rem;
+  padding-right: 12rem;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -11,20 +11,18 @@ html {
   flex-direction: row;
   justify-content: space-around;
   height: 3.25rem;
-  margin-bottom: 7.188rem;
-  margin-left: 4.75rem;
-  
-  
+  margin-bottom: 5rem;
 }
 
 .nav-link {
   display: inline-block;
   font-family: 'Hind', sans-serif;
   font-size: .75em;
+  font-weight: bolder;
   color: #FF4236;
   padding-top: 1.125em;
   padding-bottom: 1.125em;
-  margin-bottom: 3.438rem;
+  margin-bottom: 3rem;
   letter-spacing: .188em;
 }
 
@@ -41,32 +39,51 @@ img {
   height: 150%; 
   object-fit: contain;
   padding-top: 1.5rem; 
-} 
+}
 
 .header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
   font-family: 'DM Serif Display', serif;
   font-size: 3em;
-  color: #000000;
+  color: #473c3c;
   text-align: center;
   line-height: 125%;
-  margin-bottom: 3.438rem;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-family: 'Hind', sans-serif;
+  font-size: 1.75em;
+  color: #473c3c;
+  text-align: Left;
+  line-height: 100%;
+  margin-bottom: 2rem;
+  margin-left: 1.25rem;
+}
+
+p {
+  font-family: Hind-Regular;
+  font-size: 16px;
+  color: #473c3c;
+  line-height: 30px;
+  margin-left: 1.25rem;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
   margin-bottom: 7.5rem;
+  font-size: 2em;
 }
 
 .social-icons {
-  display: flex;
-  justify-content: center;
-  height: 50px;
-  width: 50px;
-  margin-left: .5rem;
-  margin-right: .5rem;
-  border-radius: 50%;
-  background-color: grey;
+  color: #dad0d0;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .grid2x2 {
@@ -74,6 +91,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  margin-bottom: 7.5rem;
 }
 .grid2x2 > div {
   display: flex; 
@@ -88,10 +106,10 @@ img {
 }
 
 .box { margin: 20px; }
-.box1 { background-color: red; }
-.box2 { background-color: orange; }
-.box3 { background-color: purple; }
-.box4 { background-color: grey; }
+.box1 { background-color: #f0ecec; }
+.box2 { background-color: #f0ecec; }
+.box3 { background-color: #f0ecec; }
+.box4 { background-color: #f0ecec; }
 
 .gallery-item {
   flex: 2;
@@ -111,11 +129,40 @@ img {
 }
 
 .label {
-transform: rotate(-90deg);
-font-family: 'Hind', sans-serif;
-font-size: .75em;
-color: #979797;
-letter-spacing: 3px;
+  transform: rotate(-90deg);
+  font-family: 'Hind', sans-serif;
+  font-size: .75em;
+  color: #979797;
+  letter-spacing: 3px;
+  position: absolute;
+  left: 10rem;
+  margin-top: 30px;
+  z-index: 9999;
+}
+
+.longform {
+  margin-bottom: 7.5rem;
+}
+
+.logo {
+  background: purple;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: .5rem;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 7.5rem;
 }
 
 
