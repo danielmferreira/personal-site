@@ -1,0 +1,67 @@
+html {
+  font-size: 16px;
+  padding-left: 174px;
+  padding-right: 250px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section {
+  margin-bottom: 7.188rem;
+  margin-left: 4.75rem;
+}
+
+.nav-link {
+  font-family: 'Hind', sans-serif;
+  font-size: .75em;
+  padding-top: 1.125em;
+  padding-bottom: 1.125em;
+  margin-bottom: 3.438rem;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.header {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3em;
+  color: #000000;
+  text-align: center;
+  line-height: 3.75em;
+}
+
+.link-box {
+  margin-bottom: 7.5rem;
+}
+
+.work-wrapper {
+  width: 100%;
+  margin-bottom: 7.5rem;
+}
+
+.img {
+  width: 31.563rem;
+  height: 32.5rem;
+}
+
+.img::before {
+  content: attr(title);
+  position: absolute;
+  color: #3e3e3c;
+  top: .75em;
+  left: .5em;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.label {
+transform: rotate(-90deg);
+font-family: 'Hind', sans-serif;
+font-size: .75em;
+color: #979797;
+letter-spacing: 3px;
+}
+
+
+
